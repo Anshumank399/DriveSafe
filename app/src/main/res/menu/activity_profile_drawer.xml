@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+       <item android:title="Dashboard">
+       <menu>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/start"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Start Engine" />
+        <item
+            android:id="@+id/drivingstatus"
+            android:icon="@drawable/ic_action_list"
+            android:title="Driving Statistics" />
+        <item
+               android:id="@+id/navi"
+               android:icon="@drawable/ic_action_map"
+               android:title="Navigate" />
+           <item
+               android:id="@+id/ddir"
+               android:icon="@drawable/ic_action_ddir"
+               android:title="DDIR" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="Logout" />
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/sos"
+                android:icon="@drawable/ic_action_sos"
+                android:title="SOS" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_action_share"
+                android:title="Share" />
+            <item
+                android:icon="@drawable/ic_action_feedback"
+                android:id="@+id/feed"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
